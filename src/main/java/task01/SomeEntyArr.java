@@ -1,6 +1,6 @@
 package task01;
 
-public class SomeEntyArr<T> {
+public class SomeEntyArr<T>  {
     private T[] arr;
 
     public SomeEntyArr(T... arr) {
