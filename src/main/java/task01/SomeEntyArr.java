@@ -7,6 +7,7 @@ public class SomeEntyArr<T>  {
         this.arr = arr;
     }
 
+    //Метод перемены мест элементов массива по индексу
     public void replEnty(int oldEntyInd,int newEntyInd ){
         T tmparr;
         tmparr = arr[oldEntyInd];
@@ -14,6 +15,7 @@ public class SomeEntyArr<T>  {
         arr[newEntyInd] = tmparr;
     }
 
+    //Метод получения элемента массива
     public T getEntybyIndex(int ind){
         return this.arr[ind];
     }
